@@ -1,4 +1,4 @@
-import { instructors } from '@/src/components/Mock/Portfolio/instructors';
+import { instructors } from '/src/components/Mock/Portfolio/instructors';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 

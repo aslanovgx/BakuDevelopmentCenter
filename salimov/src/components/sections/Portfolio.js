@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { salimovSlider } from "@/src/sliderProps";
+import { salimovSlider } from "/src/sliderProps";
 import { instructors } from "../Mock/Portfolio/instructors";
 import Link from "next/link";
+// import Modal from "../Modal";
 
 const Portfolio = () => {
   const [filteredInstructors, setFilteredInstructors] = useState(instructors);
